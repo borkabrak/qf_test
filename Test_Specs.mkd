@@ -1,9 +1,11 @@
 Carelogic Front End Developer Test Project
+==========================================
 
 This project is meant to test the candidates, your, HTML, JavaScript and CSS
 skills.  It is a timed test.
 
 Rules
+-----
 
 It is expected that you will adhere to the following:
 
@@ -21,6 +23,7 @@ It is expected that you will adhere to the following:
 
 
 Project
+-------
 
 The project is a simple web page that is for the Our Stuff Is Cheap But Good
 Company.  They sell anything and everything at reduced rate pricing.
@@ -30,10 +33,11 @@ Note that the below are the minimum requested.  It does not require connection
 to a back end and data can be static where applicable.
 
 Requirements
+------------
 
 I need to be able to bring up the home page consisting of the following:
 
-Header Area
+### Header Area
 
   * Should contain a scrolling image advertisement and links for Primary site functionality (ie. Login, Help, etc). 
 
@@ -47,7 +51,7 @@ Header Area
 
   * A minimum of one original graphical element is required.  Logo, etc. 
 
-Content pages
+### Content pages
 
 Each should be unique to what is being sold.  All products should include
 standard name, description, price and image at minimum.
@@ -85,11 +89,11 @@ standard name, description, price and image at minimum.
 
     * Anything you want minimum similar to previous but you choice. 
 
-Order page
+### Order page
 
   * JavaScript submit ability to take to order view in popup. 
 
-Footer
+### Footer
 
   * Copyright info 
 
@@ -106,8 +110,4 @@ Footer
     * Broken into categories minimum 6 
 
     * Half page worth of text on each (content is irrelevant, can use lorum ipsum or other) 
-
-
-
-
 
