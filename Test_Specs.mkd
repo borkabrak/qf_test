@@ -1,0 +1,113 @@
+Carelogic Front End Developer Test Project
+
+This project is meant to test the candidates, your, HTML, JavaScript and CSS
+skills.  It is a timed test.
+
+Rules
+
+It is expected that you will adhere to the following:
+
+  * You will write the code yourself without assistance from another party 
+
+  * You will complete the test and return it within 3 working days.  Exceptions will be made with extenuating circumstances and if the test is given on a Friday it should be returned no later than Monday morning. 
+
+  * All code should be hand written.  No copy paste.  Example, borrowing code found on the internet.  Nothing I can find on samples already provided. 
+
+  * Base JavaScript limited use of a library. 
+
+  * The pages you create should be functional on IE9/10, Chrome and Firefox. 
+
+  * Code written should adhere to industry best practice. 
+
+
+Project
+
+The project is a simple web page that is for the Our Stuff Is Cheap But Good
+Company.  They sell anything and everything at reduced rate pricing.
+
+As part of the application we need the following for project to be successful.
+Note that the below are the minimum requested.  It does not require connection
+to a back end and data can be static where applicable.
+
+Requirements
+
+I need to be able to bring up the home page consisting of the following:
+
+Header Area
+
+  * Should contain a scrolling image advertisement and links for Primary site functionality (ie. Login, Help, etc). 
+
+  * Menu Bar – Consisting of 5 menu items minimum 
+
+  * Household, Toys, Pets, Music, <Your Choice> 
+
+  * Each Menu item should navigate to a page with information on the item.   
+
+  * Text content can be borrowed from other places 
+
+  * A minimum of one original graphical element is required.  Logo, etc. 
+
+Content pages
+
+Each should be unique to what is being sold.  All products should include
+standard name, description, price and image at minimum.
+
+  * Household 
+
+    * Item of the week section 
+
+    * Discounts section 
+
+    * Should contain a list of products that go in a household with a short description and a way to view the full description.  Minimum 8 items 
+
+  * Toys 
+
+    * Graphical element that forces me to buy it for my kid. 
+
+    * 8 toys minimum, short description 
+
+  * Pets 
+
+    * Category on Cat, Dog, Fish 
+
+    * Information about each under the category 
+
+    * 2 types of each with profile for each , profile half page minimum 
+
+  * Entertainment 
+
+    * Categories: Music, Movies, etc. minimum 3 
+
+    * List of items in each category that we sell.  (CDs, DVD, shirts, etc.). 5 each  
+
+
+  * <Your Choice> 
+
+    * Anything you want minimum similar to previous but you choice. 
+
+Order page
+
+  * JavaScript submit ability to take to order view in popup. 
+
+Footer
+
+  * Copyright info 
+
+  * Contact Us 
+
+    * ooLink that takes you to Form with standard contact information 
+
+    * ooMinimum 3 required fields (First/Last Name, email, etc). 
+
+    * ooSubmit functional for positive and negative values 
+
+  * Help 
+
+    * Broken into categories minimum 6 
+
+    * Half page worth of text on each (content is irrelevant, can use lorum ipsum or other) 
+
+
+
+
+
