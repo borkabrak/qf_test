@@ -99,11 +99,11 @@ standard name, description, price and image at minimum.
 
   * Contact Us 
 
-    * ooLink that takes you to Form with standard contact information 
+    * Link that takes you to Form with standard contact information 
 
-    * ooMinimum 3 required fields (First/Last Name, email, etc). 
+    * Minimum 3 required fields (First/Last Name, email, etc). 
 
-    * ooSubmit functional for positive and negative values 
+    * Submit functional for positive and negative values 
 
   * Help 
 
