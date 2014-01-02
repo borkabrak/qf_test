@@ -4,3 +4,6 @@ TODO LIST - things to not forget
 * long descriptions for household items
 
 * remove less dependency and leave compiled css file instead of less
+
+* household page seems to have a glitch in the Outliner where the items don't
+  fall within the "Items" section.  Low priority, but take a look
