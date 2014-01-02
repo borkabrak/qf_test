@@ -2,3 +2,5 @@ TODO LIST - things to not forget
 ================================
 
 * long descriptions for household items
+
+* remove less dependency and leave compiled css file instead of less
