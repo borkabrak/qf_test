@@ -17,6 +17,14 @@ TOYS
 
 * Logo
 
+
+PETS
+----
+
+* Profiles
+
 MISC
 ----
 * remove less dependency and leave compiled css file instead of less
+
+* go over everything at the end, looking for consistent formatting
