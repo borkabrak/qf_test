@@ -6,9 +6,6 @@ HOUSEHOLD
 ---------
 * long descriptions for household items
 
-* household page seems to have a glitch in the Outliner where the items don't
-  fall within the "Items" section.  Low priority, but take a look
-
 * Logo for household items page
 
 
@@ -17,11 +14,6 @@ TOYS
 
 * Logo
 
-
-PETS
-----
-
-* Profiles
 
 MISC
 ----
