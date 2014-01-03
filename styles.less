@@ -27,9 +27,17 @@ body {
     }
 
     .category-content {
-        // display: none;
-        height: 0;
+        display: none;
         -webkit-transition: 1s;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        background: white;
+        color: black;
+
+        a { color: @alpha; }
+
+        h1, h2 { color: @beta; }
     };
 
     #menu {
@@ -51,7 +59,7 @@ body {
                     color: @gamma;
 
                     .category-content {
-                        //display: block;
+                        display: block;
                     }
                 }
 
@@ -59,21 +67,7 @@ body {
 
         }
 
-    }
-
-    /*
-    .category {
-        padding: 1em;
-        margin: 1em;
-        border-radius: 1em;
-        background: white;
-        color: black;
-
-        a { color: @alpha; }
-
-        h1, h2 { color: @beta; }
-    }
-    */
+    };
 
     footer {
 
