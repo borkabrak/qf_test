@@ -76,7 +76,7 @@ standard name, description, price and image at minimum.
 
     * Information about each under the category 
 
-    * 2 types of each with profile for each , profile half page minimum 
+    * 2 types of each with profile for each, profile half page minimum 
 
   * Entertainment 
 
