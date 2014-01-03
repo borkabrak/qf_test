@@ -38,14 +38,19 @@ body {
         a { color: @alpha; }
 
         h1, h2 { color: @beta; }
+        position: absolute;
+        top: 80%;
     };
 
-    #menu {
+    #category-menu {
         &>ul { 
             
             list-style: none;
 
             &>li {
+
+                display: inline;
+                margin: .1em;
 
                 a { color: white; };
                 h1 { display: inline; };
