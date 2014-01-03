@@ -20,3 +20,9 @@ MISC
 * remove less dependency and leave compiled css file instead of less
 
 * go over everything at the end, looking for consistent formatting
+
+
+BUGS
+----
+
+* Category display needs better positioning.  Almost nonfunctional, as-is.
