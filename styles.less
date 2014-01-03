@@ -1,4 +1,38 @@
+// Colors
+
+@alpha: #117b7b;
+@beta: #1e3f89;
+@gamma: #17a417;
+
+@text: mix(@alpha, white, 10%);
+
 body {
+
     font-family: 'Arvo', serif;
-    background-color: rgb(150, 150, 175);
+    background-color: @alpha;
+
+    a {
+        color: white;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: darken(@alpha, 18%);
+    }
+
+    article {
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        background: white;
+        color: black;
+
+        a {
+            color: @alpha;
+        }
+
+        h1, h2 {
+            color: @beta;
+        }
+    }
+
 }
