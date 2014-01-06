@@ -3,39 +3,60 @@
 @beta: #1e3f89;
 @gamma: #17a417;
 
-@text: mix(@alpha, white, 10%);
+@headertext: mix(@alpha, @gamma, 30%);
+@linktext: white;
 
 body {
 
-    font-family: 'Arvo', serif;
+    //font-family: 'Arvo', serif;
+    //font-family: 'Varela Round', sans-serif;
+    font-family: 'Habibi', sans-serif;
     background-color: @alpha;
 
-    h1, h2, h3, h4, h5, h6 { color: @gamma; }
+    h1, h2 { 
+        color: @headertext;
+    }
 
-    a { color: white; }
+    h1 {
+        font-family: 'Days One', serif;
+    }
+
+    h2 {
+        font-family: 'Habibi', serif;
+    }
+
+
+    a { color: @linktext; }
 
     header {
         background: @beta;
-        color: black;
         padding: 1em;
         margin: 1em;
-        border: solid @gamma 2px;
         border-radius: 1em;
 
-        img { float: left; }
+        img { 
+            padding: 1em;
+            float: left; 
+        }
+    }
+
+    footer {
+        background: @beta;
+        padding: 1em;
+        border-radius: 1em;
     }
 
     .category-content {
         display: none;
-        -webkit-transition: 1s;
         padding: 1em;
-        margin: 1em;
+        margin-top: 0.5em;
         border-radius: 1em;
         background: white;
         color: black;
 
         h1, h2 { color: @beta; }
         position: absolute;
+        width: 60%;
     };
 
     #category-menu {
@@ -48,36 +69,21 @@ body {
                 display: inline;
                 margin: .1em;
 
-                h1 { display: inline; };
-                background: @beta;
+                background: mix(@gamma, @beta, 50%);
                 padding: 1em;
                 border-top-left-radius: 0.5em;
                 border-top-right-radius: 0.5em;
+                border: solid white 3px;
 
+                h1 { display: inline; };
                 &:hover {
-                    border: solid @gamma 2px;
-                    color: @gamma;
+                    background: white;
 
                     .category-content {
                         display: block;
                     }
                 }
-
             }
-
         }
-
-    };
-
-    footer {
-
-        background: @beta;
-        color: black;
-        padding: 1em;
-        margin: 1em;
-        border-radius: 1em;
-
     }
-
 }
-
