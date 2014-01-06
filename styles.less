@@ -1,5 +1,4 @@
-// Colors
-
+// Color scheme
 @alpha: #117b7b;
 @beta: #1e3f89;
 @gamma: #17a417;
@@ -11,7 +10,9 @@ body {
     font-family: 'Arvo', serif;
     background-color: @alpha;
 
-    h1, h2, h3, h4, h5, h6 { color: darken(@alpha, 18%); }
+    h1, h2, h3, h4, h5, h6 { color: @gamma; }
+
+    a { color: white; }
 
     header {
         background: @beta;
@@ -21,9 +22,7 @@ body {
         border: solid @gamma 2px;
         border-radius: 1em;
 
-        a { color: @gamma; }
-
-        img { display: inline; }
+        img { float: left; }
     }
 
     .category-content {
@@ -35,11 +34,8 @@ body {
         background: white;
         color: black;
 
-        a { color: @alpha; }
-
         h1, h2 { color: @beta; }
         position: absolute;
-        top: 80%;
     };
 
     #category-menu {
@@ -52,7 +48,6 @@ body {
                 display: inline;
                 margin: .1em;
 
-                a { color: white; };
                 h1 { display: inline; };
                 background: @beta;
                 padding: 1em;
@@ -82,7 +77,6 @@ body {
         margin: 1em;
         border-radius: 1em;
 
-        a { color: @gamma; }
     }
 
 }
