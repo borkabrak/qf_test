@@ -21,7 +21,7 @@ body {
 
     a { color: @linktext; }
 
-    header {
+    &>header {
         text-shadow: 0.1em -0.05em 0.2em #333;
         background: @beta;
         padding: 1em;
@@ -35,7 +35,7 @@ body {
         }
     }
 
-    footer {
+    &>footer {
         position: absolute;
         top: 90%;
         width: 90%;
@@ -45,7 +45,7 @@ body {
         border-radius: 1em;
     }
 
-    .category-content {
+    .category-content, #landing-page {
         display: none;
         padding: 1em;
         margin-top: 0.5em;
@@ -58,6 +58,10 @@ body {
         h1, h2 { color: @beta; }
         position: absolute;
         width: 60%;
+    };
+
+    #landing-page { 
+        display: block 
     };
 
     #category-menu {
