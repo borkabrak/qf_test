@@ -9,3 +9,8 @@ window.onload = function(){
     };
 
 }
+
+var order = function(item) {
+    confirm("Do you want to order " + item.innerText + " for $" + (Math.random() * 100).toFixed(2) + "?");
+};
+
