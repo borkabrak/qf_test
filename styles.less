@@ -29,6 +29,7 @@ body {
     a { color: @linktext; }
 
     header {
+        text-shadow: 0.1em -0.05em 0.2em #333;
         background: @beta;
         padding: 1em;
         margin: 2em;
@@ -42,6 +43,9 @@ body {
     }
 
     footer {
+        position: absolute;
+        top: 90%;
+        width: 90%;
         background: @beta;
         padding: 1em;
         border-radius: 1em;
@@ -54,6 +58,8 @@ body {
         border-radius: 1em;
         background: white;
         color: black;
+        height: 60%;
+        overflow: scroll;
 
         h1, h2 { color: @beta; }
         position: absolute;
